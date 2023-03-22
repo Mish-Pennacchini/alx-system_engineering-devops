@@ -1,2 +1,2 @@
 #!/bin/bash
-TRUEKNOWLEDGE=$((28+100)); echo $TRUEKNOWLEDGE  
+TRUEKNOWLEDGE=$(expr 4 + 124) | echo $TRUEKNOWLEDGE
